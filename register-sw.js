@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-	navigator.serviceWorker.register(superpwa_sw.url)
+	navigator.serviceWorker.register(https://cdn.statically.io/gh/romliwenru/pptq/main/superpwa-sw.js)
 	.then(function(registration) { console.log('SuperPWA service worker ready'); registration.update(); })
 	.catch(function(error) { console.log('Registration failed with ' + error); });
 
